@@ -1,4 +1,4 @@
-#include "x11_client.h"
+#include <x11_client.h>
 
 static PyObject* x11_client_send_key(PyObject *self, PyObject *args)
 {
