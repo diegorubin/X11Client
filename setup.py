@@ -2,14 +2,14 @@ from setuptools import setup, Extension, find_packages
 
 module = Extension('x11_client',
                    define_macros=[('MAJOR_VERSION', '1'),
-                                  ('MINOR_VERSION', '2')],
+                                  ('MINOR_VERSION', '3')],
                    include_dirs=['/usr/include', 'ext'],
                    libraries=['X11', 'Xtst'],
                    library_dirs=['/usr/lib'],
-                   sources=['ext/x11_client.c, ext/x11_client.h'])
+                   sources=['ext/x11_client.c', 'ext/x11_client.h'])
 
 setup(name='X11Client',
-      version='1.2',
+      version='1.3',
       description='X11 client',
       author='Diego Rubin',
       author_email='rubin.diego@gmail.com',
