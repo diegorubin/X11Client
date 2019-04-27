@@ -1,7 +1,0 @@
-setup.py
-X11Client.egg-info/PKG-INFO
-X11Client.egg-info/SOURCES.txt
-X11Client.egg-info/dependency_links.txt
-X11Client.egg-info/top_level.txt
-ext/x11_client.c
-x11/__init__.py
