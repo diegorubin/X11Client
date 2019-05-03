@@ -6,7 +6,6 @@ module = Extension('x11_client',
                    include_dirs=['/usr/include', 'ext'],
                    libraries=['X11', 'Xtst'],
                    library_dirs=['/usr/lib'],
-                   headers=['ext/x11_client.h'],
                    sources=['ext/x11_client.c'])
 
 setup(name='X11Client',
